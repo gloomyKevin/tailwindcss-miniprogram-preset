@@ -15,15 +15,11 @@ export function createPreset (option?: IPresetOption): TailwindConfig {
   return {
     // 中文配置文档：https://www.tailwindcss.cn/docs/configuration
     // 英文配置文档：https://tailwindcss.com/docs/configuration
-    
-    // 由于微信小程序会把 w-[750rpx] 中的中括号强制去除，所以不推荐开启此模式
-    // mode: 'jit',
-    purge: {
-      // 如果 development 下,wxss过大，可以一直开启 enabled
-      // 默认在 NODE_ENV=production 下开启
-      // enabled: process.env.NODE_ENV === 'production',
-      content: ['./public/index.html', './src/**/*.{vue,js,ts,jsx,tsx,wxml,mpx}']
-    },
+    // TODO：V3内置JIT，微信小程序会把 w-[750rpx] 中的中括号强制去除
+    // 如果 development 下,wxss过大，可以一直开启 enabled
+    // 默认在 NODE_ENV=production 下开启
+    // enabled: process.env.NODE_ENV === 'production',
+    content: ['./dist/wx/src/**/*.wxml'],
     darkMode: false, // 'class', // or 'media' or 'class'
     important: true,
     corePlugins,

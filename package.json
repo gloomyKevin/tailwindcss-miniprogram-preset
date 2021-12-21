@@ -1,5 +1,5 @@
 {
-  "name": "tailwindcss-miniprogram-preset",
+  "name": "mpx-tailwindcss-preset",
   "version": "2.1.1",
   "description": "tailwindcss-miniprogram-preset 助力微信小程序开发者!",
   "main": "dist/index.js",
