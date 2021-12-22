@@ -20,7 +20,6 @@ export function createPreset (option?: IPresetOption): TailwindConfig {
     // 默认在 NODE_ENV=production 下开启
     // enabled: process.env.NODE_ENV === 'production',
     content: ['./dist/wx/src/**/*.wxml'],
-    darkMode: false, // 'class', // or 'media' or 'class'
     important: true,
     corePlugins,
     theme: {
