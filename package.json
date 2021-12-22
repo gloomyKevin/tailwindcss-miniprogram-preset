@@ -1,6 +1,6 @@
 {
   "name": "mpx-tailwindcss-preset",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "tailwindcss-miniprogram-preset 助力微信小程序开发者!",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
