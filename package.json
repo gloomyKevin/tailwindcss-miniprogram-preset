@@ -1,7 +1,7 @@
 {
   "name": "mpx-tailwindcss-preset",
-  "version": "2.1.3",
-  "description": "tailwindcss-miniprogram-preset 助力微信小程序开发者!",
+  "version": "2.1.4",
+  "description": "mpx-tailwindcss-preset",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/types/index.d.ts",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sonofmagic/tailwindcss-miniprogram-preset.git"
+    "url": "git+https://github.com/gloomyKevin/mpx-tailwindcss-preset.git"
   },
   "keywords": [
     "tailwindcss",
@@ -31,16 +31,16 @@
     "小程序",
     "wxss"
   ],
-  "author": "ice breaker <1324318532@qq.com>",
+  "author": "gloomyKevin<1293535916@qq.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sonofmagic/tailwindcss-miniprogram-preset/issues"
+    "url": "https://github.com/gloomyKevin/mpx-tailwindcss-preset/issues"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "homepage": "https://github.com/sonofmagic/tailwindcss-miniprogram-preset#readme",
+  "homepage": "https://github.com/gloomyKevin/mpx-tailwindcss-preset#readme",
   "devDependencies": {
     "@rollup/plugin-alias": "^3.1.8",
     "@rollup/plugin-commonjs": "^21.0.1",
@@ -58,10 +58,10 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.1",
     "jest": "^27.3.1",
-    "postcss": "^8.4.1",
+    "postcss": "^8.4.5",
     "postcss-rem-to-responsive-pixel": "^5.0.0",
     "rollup": "^2.60.1",
-    "tailwindcss": "^2.2.19",
+    "tailwindcss": "^3.0.7",
     "ts-jest": "^27.0.7",
     "ts-node": "^10.4.0",
     "tslib": "^2.3.1",
