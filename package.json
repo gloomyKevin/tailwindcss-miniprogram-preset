@@ -1,6 +1,6 @@
 {
   "name": "mpx-tailwindcss-preset",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "mpx-tailwindcss-preset",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

@@ -19,7 +19,7 @@ export function createPreset (option?: IPresetOption): TailwindConfig {
     // 如果 development 下,wxss过大，可以一直开启 enabled
     // 默认在 NODE_ENV=production 下开启
     // enabled: process.env.NODE_ENV === 'production',
-    content: ['./dist/wx/src/**/*.wxml'],
+    // content: ['./dist/wx/**/*.wxml'],
     important: true,
     corePlugins,
     theme: {
